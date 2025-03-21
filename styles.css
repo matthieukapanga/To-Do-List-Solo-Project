@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    font-family: "Ubuntu", sans-serif;
+    text-align: center;
+    height: 20vh;
+    background: #38404B;
+    color: #94ADCF;
+}
+
+.wrapper {
+    max-width: 100%;
+    width: 400px;
+    display: flex;
+    margin-left: 430px;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    color: #94ADCF;
+}
+
+.wrapper input,
+.wrapper button {
+    background: #38404B;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    color: #94ADCF;
+}
+::placeholder {
+    color: #94ADCF;
+    opacity: 1; /* Firefox */
+  }
+
+.wrapper input {
+    width: 100%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    color: #94ADCF;
+}
+
+.wrapper button {
+    cursor: pointer;
+    width: 20px;
+    height: 50px;
+    margin: 10px -30px 10px 0;
+    border-radius: 50px;
+}
+
+#ul-el {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    flex-wrap: wrap; 
+    gap: 9px; 
+    justify-content: center;
+    padding: 0;
+}
+li{
+    list-style: circle;
+    width: 100%;
+    max-width: 300px; 
+    padding: 10px;
+    background: #38404B;
+    color: #94ADCF;
+    margin: 10px auto; 
+    border-radius: 10px;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.7), 0 0 10px rgba(148, 173, 207, 0.8);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+#completedTasks{
+    margin-top: 100px;
+}
