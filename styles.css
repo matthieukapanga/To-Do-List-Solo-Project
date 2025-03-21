@@ -11,7 +11,7 @@ body {
     max-width: 100%;
     width: 400px;
     display: flex;
-    margin-left: 430px;
+    margin: 50px auto;
     justify-content: space-around;
     align-items: center;
     margin-top: 50px;
